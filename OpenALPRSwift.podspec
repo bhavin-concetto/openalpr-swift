@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
   spec.vendored_frameworks = 'lib/openalpr.framework'
   spec.vendored_libraries =  'lib/libjpeg.a', 'lib/liblept.a', 'lib/libpng.a', 'lib/libtesseract.a', 'lib/libtiff.a'
-  spec.dependency 'OpenCV', '~> 3.4.16'
+  spec.dependency 'OpenCV', '~> 3.4.1'
 end
